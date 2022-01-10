@@ -118,7 +118,7 @@ h1 {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 40rem;
+    height: 30rem;
     max-width: 100vw;
     background-size: cover;
     background-position: center center;
@@ -127,16 +127,16 @@ h1 {
  
   .welcome-carousel-image1{
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
-    background-image:url('../images/images.jpg');
+    background-image:url('../images/pexels-photo-2061770.jpeg');
   }
 
   .welcome-carousel-image2{
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
-    background-image:url('../images/images\ \(2\).jpg');
+    background-image:url('../images/pexels-photo-302894.jpeg');
   }
 
   .welcome-carousel-image3{
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
-    background-image:url('../images/images\ \(1\).jpg');
+    background-image:url('../images/pexels-photo-324028.jpeg');
   }
 
