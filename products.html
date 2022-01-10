@@ -68,71 +68,144 @@
         </nav>
       </div>
     </header>
-   <main role="container">
-
-            <div id="welcomeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Welcome 1"></button>
-                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="1"
-                    aria-label="Welcome 2"></button>
-                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="2"
-                    aria-label="Welcome 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item welcome-carousel-image1 active">
-                    <div class="carousel-caption">
-                        <h1 id="color-test">Welcome to Coffe Party</h1>
-                        <p>Take a look at our products!</p>
-                    </div>
-                </div>
-                <div class="carousel-item welcome-carousel-image2">
-                    <div class="carousel-caption text-start">
-                        <h1 id="color-test">Discover our products</h1>
-                        <p>Our delicious pies delivered to your door. Every week.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#bottom" role="button">Check out them here here!</a></p>
-                    </div>
-                </div>
-                <div class="carousel-item welcome-carousel-image3">
-                    <div class="carousel-caption text-end">
-                        <h1 id="color-test">Browse the pies of summer.</h1>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <main role="container">
+      <div
+        id="welcomeCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#welcomeCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Welcome 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#welcomeCarousel"
+            data-bs-slide-to="1"
+            aria-label="Welcome 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#welcomeCarousel"
+            data-bs-slide-to="2"
+            aria-label="Welcome 3"
+          ></button>
         </div>
-        <div class="container">
-          <h2>Coffe Party</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Företag</h4>
-              <img src="images/company.jpeg"  alt="" class="w-100">
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+        <div class="carousel-inner">
+          <div class="carousel-item welcome-carousel-image1 active">
+            <div class="carousel-caption">
+              <h1 id="color-test">Welcome to Coffe Party</h1>
+              <p>Take a look at our products!</p>
             </div>
-            <div class="col-md-6">
-              <h4>PrivatPersoner</h4>
-              <img src="images/företag.jpeg" alt="" class="w-100">
-              <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+          </div>
+          <div class="carousel-item welcome-carousel-image2">
+            <div class="carousel-caption text-start">
+              <h1 id="color-test">Discover our products</h1>
+              <p>
+                Our products are available everywhere and will be delivered to
+                your door. Every week.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#bottom" role="button"
+                  >Check out them here here!</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item welcome-carousel-image3">
+            <div class="carousel-caption text-end">
+              <h1 id="color-test">Browse the coffe of the year.</h1>
             </div>
           </div>
         </div>
-        <div class="container">
-          <h2 class="text-center">Products</h2>
-          <div class="row" id="bottom">
-            <div class="col">
-              First picture
-            </div>
-            <div class="col"> Second Picture</div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#welcomeCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#welcomeCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <h2>Coffe Party</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Företag</h4>
+            <img src="images/company.jpeg" alt="" class="w-100" />
+            <p>Lorem ipsum dolor sit amet, consectetur adip</p>
           </div>
-
+          <div class="col-md-6">
+            <h4>Privat Personer</h4>
+            <img src="images/företag.jpeg" alt="" class="w-100" />
+            <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+          </div>
         </div>
-   </main>
+      </div>
+      <div class="container" id="bottom">
+        <h2>Products</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 400px">
+              <img
+                class="card-img-top"
+                src="images/Desktop-PDP-6272x2432.webp"
+                alt="Card image"
+              />
+              <div class="card-body bg-dark text-white">
+                <h4 class="card-title">Product</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 400px">
+                <img
+                  class="card-img-top"
+                  src="images/M-1220-PDP-Background-TreeQuarter.webp"
+                  alt="Card image"
+                />
+                <div class="card-body bg-dark text-white">
+                  <h4 class="card-title">Product 2 </h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 400px">
+                <img
+                  class="card-img-top"
+                  src="images/Desktop-PDP-6272x2432.webp"
+                  alt="Card image"
+                />
+                <div class="card-body bg-dark text-white">
+                  <h4 class="card-title">Product 3 </h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
